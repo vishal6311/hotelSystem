@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="pageContainer">
+      <div class="form" id="formID">
+        <div class="name">
+          <input
+            class="nameInput"
+            id="nameID"
+            type="text"
+            placeholder="name"
+            maxlength="30"
+          />
+        </div>
+        <div class="email">
+          <input
+            class="emailInput"
+            type="email"
+            placeholder="email"
+            maxlength="50"
+          />
+        </div>
+        <div class="contact">
+          <div class="countryCode">
+            <form name="CountryCodeID">
+              <select name="countryCodeDropDown">
+                <option value="india">select country Code</option>
+                <option value="india">+91</option>
+                <option value="">+92</option>
+                <option value="">+93</option>
+                <option value="">+94</option>
+              </select>
+            </form>
+          </div>
+          <div class="phoneNo">
+            <input
+              type="text"
+              class="PhoneNoInput"
+              placeholder="Phone No"
+              maxlength="10"
+            />
+          </div>
+        </div>
+        <div class="address">
+          <input
+            type="text"
+            class="addressInput"
+            placeholder="address"
+            maxlength="2000"
+          />
+        </div>
+        <div class="noOfPerson">
+          <input
+            type="number"
+            class="peopleInput"
+            maxlength="2"
+            placeholder="enter no of people"
+          />
+        </div>
+        <div class="roomType">
+          <form name="roomForm">
+            <label>Select Room Type</label>
+            <select name="roomTypeID">
+              <option value="">single Bedroom</option>
+              <option value="">double Bedroom</option>
+              <option value="">Executive Room</option>
+            </select>
+          </form>
+        </div>
+        <div class="noOfNights">
+          <input
+            type="number"
+            class="noOfNightInput"
+            placeholder="No of Nights"
+          />
+        </div>
+
+        <div class="Buttons">
+          <button id="calculateBtnId">Calculate Cost</button>
+          <button class="submitBtn" id="submitID">Submit</button>
+        </div>
+      </div>
+      
+
+      <div class="NoOfRoomContainer">
+        <h3>No of Rooms</h3>
+        <p class="noOfRooms"></p>
+      </div>
+        
+      <div class="costContainer">
+
+        <h3>Total Cost</h3>
+        <p class="cost"></p>
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

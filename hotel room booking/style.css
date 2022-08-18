@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.pageContainer{
+    /* background-color: red; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: linear-gradient(176deg, rgba(255,255,255,1) 0%, rgba(148,177,182,1) 52%);
+}
+
+.NoOfRoomContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.costContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.name,.email,.contact,.phoneNo,.address,.noOfPerson,.roomType,.noOfNights, .Buttons{
+    margin-top: 10px;
+}
